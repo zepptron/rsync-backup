@@ -13,7 +13,8 @@ parts of interest:
 
 ```FUNCTION_WRITE_LOG("/var/log/cron_backup", "starting backup...")``` this is where your logfile will be written.
 
-```returnvalue = os.system('rsync -auv --log-file=/var/log/cron_backup --delete /mnt/shari/ /mnt/backuphdd/')``` Rsync specific. ```-auv```means:
+```returnvalue = os.system('rsync -auv --log-file=/var/log/cron_backup --delete /mnt/shari/ /mnt/backuphdd/')``` 
+Rsync specific. ```-auv```means:
 * a = archive mode
 * u = skip file if source is older than target
 * v = verbose
