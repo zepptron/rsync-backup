@@ -3,8 +3,8 @@ Rsync Backupscript
 
 
 
-Adjust the script to your config and configure your cronjobs like this ```crontab -e``` then enter:
-```0 5 * * * python /root/backup.py```
+Adjust the script to your config and configure your cronjobs like this: 
+```crontab -e``` then enter: ```0 5 * * * python /root/backup.py``` and save.
 
 script runs everyday at 5 o' clock in the morning and syncs to disks.
 
