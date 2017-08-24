@@ -11,7 +11,7 @@ script runs everyday at 5 o' clock in the morning and syncs to disks.
 
 parts of interest:
 
- `logfile` is where your logfile will be written.
+ `logfile` is where your logfile will be written to.
 
 ```returnvalue = os.system('rsync -auv --log-file=/var/log/cron_backup --delete /mnt/shari/ /mnt/backuphdd/')```
 Rsync specific. ```-auv```means:
